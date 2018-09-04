@@ -1,6 +1,9 @@
-Js Hello World Demo
-===================
+JavaScript Eslint Demo
+======================
 
-Open `index.html` in your browser.
+```
+npm install
+npm run demo
+```
 
-You will see "Hello, JS!" on the page.
+将会检查出代码中不符合规范的地方。

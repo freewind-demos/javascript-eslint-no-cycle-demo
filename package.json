@@ -1,4 +1,12 @@
 {
-  "dependencies": {
+  "scripts": {
+    "demo": "eslint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-rules": "^0.4.3"
   }
 }
