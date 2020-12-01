@@ -3,25 +3,15 @@ module.exports = {
         "node": true
     },
     "extends": "eslint:recommended",
+    "plugins": ["import"],
     "parserOptions": {
-        "ecmaVersion": 5
+        "ecmaVersion": 6,
+        sourceType: "module"
     },
     "rules": {
-        "indent": [
+        "import/no-cycle": [
             "error",
-            4
+            {}
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
-        ]
     }
 };
