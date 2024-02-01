@@ -4,9 +4,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint": "5.5.0",
+    "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-rules": "^0.4.3"
+    "eslint-rules": "0.4.3"
   }
 }
